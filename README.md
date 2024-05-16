@@ -1,6 +1,6 @@
-# Sahil Potdukhe's Portfolio Website
+<h1 align="center"> Sahil Potdukhe's Portfolio Website</h1>
 
-Welcome to my portfolio website! This project showcases my skills, experiences, and projects in a visually appealing and interactive manner.
+<p align="center">Welcome to my portfolio website! This project showcases my skills, experiences, and projects in a visually appealing and interactive manner.</p>
 
 ## Table of Contents
 
@@ -14,7 +14,8 @@ Welcome to my portfolio website! This project showcases my skills, experiences, 
 
 ## Demo
 
-You can check out the live demo of the website [here](https://sahilpotdukhe.github.io/Portfolio-website/).
+You can check out the live demo of the website [here](https://sahilpotdukhe.github.io/Portfolio-website/)
+<img src="portfoliowebsitedemo.png" alt="image" >
 
 ## Features
 
