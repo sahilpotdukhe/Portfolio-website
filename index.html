@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Potdukhe Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6533443fb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#experiences" onclick="closemenu()">Experience</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    
+                    <p>Menu</p>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Sahil Potdukhe</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------About----------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/photo2.png">
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About Me</h1>
+                <p class="aboutdes">Highly motivated and results-oriented 
+                    Software Engineer with experience in <span>mobile 
+                        app development</span> utilizing Flutter, Firebase, 
+                    and cloud platforms. Proven ability to design, 
+                    develop, and deploy user-centric applications 
+                    that improve user engagement and drive 
+                    business growth. Expertise in <span>UI/UX design</span>, 
+                    secure authentication, real-time features, and 
+                    performance optimization.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming languages</span><br>Java, Dart, HTML, CSS, C</li>
+                        <li><span>Mobile Development framework</span><br>Flutter</li>
+                        <li><span>UI/UX Design Tools</span><br>Figma</li>
+                        <li><span>Databases</span><br>Firebase,SQLite,Hive</li>
+                        <li><span>IDE</span><br>Android Studio, VS Code, Github</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span >Amazon    </span><span class="period">|   January 2023 – June 2023 | Hyderabad</span><br>Sofware Development Engineer Intern</li>
+                        <li><span >CloudyML    </span><span class="period">|   May 2022 – July 2022 | Work from Home</span><br>App Developer Intern</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>IIIT Vadodara   </span><span class="period">|   2019-2023 | Gandhinagar,India</span><br>B.Tech in Computer Science <br>CPI: 7.86/10.00</li>
+                        <li><span>Dr. Ambedkar College   </span><span class="period">|   2017-2019 | Nagpur, India</span><br>Senior Secondary <br>Percentage: 82.46%</li>
+                        <li><span>ST. Claret School   </span><span class="period">|   2016-2017 | Chimur, India</span><br>High School <br>CGPA: 10.00/10.00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------Services--------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>  
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Utilizing proficiency in Flutter, Firebase, and cloud platforms to craft user-centric mobile apps. Offerings encompass responsive design for optimal user experiences, secure authentication implementation, and integration of real-time features.
+                </p>
+                <br>
+                <a href="https://flutter.dev/" target="_blank">Learn more    <i class="fa-solid fa-arrow-up-right-from-square learn"></i></a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Designs</h2>
+                <p>Proficient in UI/UX design for engaging, expandable interfaces. Offers tailored solutions for intuitive, visually appealing designs across platforms, including responsive layouts, UI designs, UX optimization, prototypes, and ongoing refinement.
+                </p>
+                <br>
+                <a href="https://www.figma.com/ux-design-tool/" target="_blank">Learn more    <i class="fa-solid fa-arrow-up-right-from-square learn"></i></a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Cloud-based Apps</h2>
+                <p> Cloud integration specialist enhances app functionality and scalability, utilizing resources for data management, secure authentication, and real-time communication, excelling in developing apps with core features and secure messaging.</p>
+                <br>
+                <a href="https://firebase.google.com/" target="_blank">Learn more    <i class="fa-solid fa-arrow-up-right-from-square learn"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------Experiences--------------------- -->
+<div id="experiences">
+    <div class="container">
+        <h1 class="subtitle">My Experience</h1>  
+        <div class="experience-list">
+            <div>
+                <img  class="companylogo" src="images/amazonlogo.png" alt="" >
+                <h2>Amazon</h2>
+                <h3>Software Development Engineer Intern  |  January 2023 – June 2023</h3>
+                <p>Amazon, a global technology conglomerate, offers a wide range of services including e-commerce, cloud computing, digital streaming, and artificial intelligence.</p>
+                <br>
+                <ul>
+                    <li>Technology Used: Kata, CSS, Amazon API, Cards Platform, JavaScript, TypeScript, Java.</li>
+                    <li>Developed “Quick Buys Card” on Cards Platform, increased user interaction by 30%, resulting in 40% growth in sales conversion. (UI/UX optimization, dynamic filtering, caching, and AJAX calls to increase performance by 50% (latency 50-80ms).</li>
+                    <li>Created a reusable Card template with filtering functionality, saving Amazon developers an estimated 60% in development time.</li>
+                    <li>Supported web analytics initiative and implemented bug fixing procedure to enhance application stability. Delivered presentations on Cards platform to onboard 3 teams.</li>
+                    <li>Refactored legacy “Bi-feature Card” code and transferred it to Cards Platform, reducing bugs by 30% and improving code maintainability and performance by 20%</li>
+                </ul>
+            </div>
+            <div>
+                <img  class="companylogo" src="images/cloudymllogo.png" alt="">
+                <h2>CloudyML</h2>
+                <h3>App Developer Intern    |   May 2022 – July 2022 </h3>
+                <p>CloudyML offers data science courses for students, providing hands-on learning to prepare for roles like data scientist, analyst, and ML engineer, ensuring job readiness.</p>
+                <br>
+                <ul>
+                    <li>Developed and deployed core user features (login, signup, profile management, and notification system) with responsive design for optimal mobile experience.</li>
+                    <li>Enhanced secure authentication system (email, phone OTP, Google integration) resulting in a 50% reduction in latency to get user data and optimized UI.</li>
+                    <li>Implemented cloud messaging platform for improved user experience (30% increase) leveraging push notifications for purchase, verification, and updates.</li>
+                    <li>Streamlined app development process by achieving a 40% reduction in app size (cloud-based assets management) and a 20% improvement in code quality</li>
+                    <li>Addressed authentication vulnerabilities and implemented privacy measures.</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------------Portfolio------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="images/chatapp.png" alt="">
+                <div class="layer">
+                    <h3>Chat Messaging App</h3>
+                    <p>Created chat app with real-time messaging, secure authentication, voice/video calling, media sharing, user search, profile management, and optimized performance.</p>
+                    <a href="https://github.com/sahilpotdukhe/EChat" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/AIapp.png" alt="">
+                <div class="layer">
+                    <h3>ChatBot AI and Image generation</h3>
+                    <p>Created cross-platform AI app using OpenAI. Developed adaptive chatbots, user-driven image generation, and language translation for seamless communication.</p>
+                    <a href="https://github.com/sahilpotdukhe/HeyTalkAI" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ecommerceapp.png" alt="">
+                <div class="layer">
+                    <h3>E-Commerce Application</h3>
+                    <p>Created Flipkart-like e-commerce app with browsing, cart, secure checkout. Enhanced UX with search, order history, profile editing. Developed Admin dashboard for product management and analytics.</p>
+                    <a href="https://github.com/sahilpotdukhe/Flutter-Ecommerce-App" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- ---------------------------- -->
+        <div class="work-list"> 
+            <div class="work">
+                <img src="images/movieapp.png" alt="">
+                <div class="layer">
+                    <h3>Movie App</h3>
+                    <p>Created a comprehensive movie and TV show information retrieval system integrating APIs for popular titles, ratings, descriptions, and trailer viewing.</p>
+                    <a href="https://github.com/sahilpotdukhe/Movies-Hub" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/qrscanner.png" alt="">
+                <div class="layer">
+                    <h3>QR Scanner and generator</h3>
+                    <p>Designed an application capable of scanning QR codes to display embedded data, while also offering functionality to generate QR codes from user-provided data of any type.</p>
+                    <a href="https://github.com/sahilpotdukhe/QR-Scanner-and-Generator" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/codingapp.png" alt="">
+                <div class="layer">
+                    <h3>Coding competition app</h3>
+                    <p>Designed and developed a gamified coding contest platform as a group project. Implemented features for awarding in-app currency and redeemable rewards.</p>
+                    <a href="https://github.com/sahilpotdukhe/Coddr-App" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------------Contact------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1> 
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:sahilpotdukhe.ssp@gmail.com">sahilpotdukhe.ssp@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+91 7447332096">+91 7447332096</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sahil-potdukhe/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/sahilpotdukhe" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/917447332096?text=Hi" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/sahil.potdukhe.3/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sahilpotdukhe11/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/SahilPotdukhe" target="_blank"><i class="fa-brands fa-twitter"></i></a>  
+                </div>
+                <a href="files/Resume_new.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="7d3d96f6-14fb-4cd0-a6f5-9c5de07d1dc1">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="text" name="Email" placeholder="Your email" required>
+                    <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                    <button class="btn btn2" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+            <p>Copyright © Sahil.&nbsp Made with <i class="fa-solid fa-heart"></i> by Sahil Potdukhe.</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function openTab(tabName) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabName).classList.add('active-tab');
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0px";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
